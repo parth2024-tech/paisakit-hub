@@ -246,5 +246,165 @@
     "action": "Audit and rebalance your asset allocation once a year on your birthday or financial year-end.",
     "tag": "Portfolio Strategy",
     "source": "Asset Allocation Science"
+  },
+  {
+    "id": 32,
+    "title": "Never withdraw cash from an ATM using a credit card",
+    "snippet": "Withdrawing cash on a credit card is classified as a cash advance. There is ZERO interest-free grace period; interest starts compounding at 42%+ APR from the exact second notes emerge from the ATM, alongside a flat ₹300-₹500 cash advance fee.",
+    "action": "Disable ATM cash withdrawal permissions in your bank credit card app settings.",
+    "tag": "Credit",
+    "source": "RBI Consumer Directives"
+  },
+  {
+    "id": 33,
+    "title": "MFCentral: The official portal to track all your mutual funds in one place",
+    "snippet": "MFCentral is the official collaborative platform built by CAMS and KFintech (approved by SEBI) allowing you to view and manage all mutual fund investments across all brokers and AMCs without commission leakage.",
+    "action": "Sign in to mfcentral.com using your PAN to audit your consolidated portfolio and update nominees across all folios in one click.",
+    "tag": "Mutual Funds",
+    "source": "SEBI Mandate / CAMS & KFintech"
+  },
+  {
+    "id": 34,
+    "title": "Section 80E: Unlimited tax deduction on education loan interest",
+    "snippet": "Unlike other deductions capped at ₹1.5 Lakh, Section 80E lets you deduct 100% of the interest paid on higher education loans from your taxable income for 8 consecutive years with zero upper limit.",
+    "action": "Collect an Interest Certificate from your lending bank in March and submit it to HR to claim Section 80E under the Old Tax Regime.",
+    "tag": "Taxes",
+    "source": "Income Tax Act"
+  },
+  {
+    "id": 35,
+    "title": "Sovereign Gold Bonds beat digital gold by miles",
+    "snippet": "Digital gold on apps charges 3% GST and a 3% buy-sell spread. Sovereign Gold Bonds issued by RBI have 0% GST, pay 2.5% annual interest, and offer 100% tax-free capital gains at maturity.",
+    "action": "Buy SGBs during RBI tranches or on the stock exchange (NSE/BSE) rather than buying digital gold on payment apps.",
+    "tag": "Gold",
+    "source": "Reserve Bank of India"
+  },
+  {
+    "id": 36,
+    "title": "Audit your EPF balance on the EPFO Member Passbook portal",
+    "snippet": "Many employees assume their employer is depositing their PF deductions, only to discover years later that a struggling startup skipped deposits. Employers must legally credit EPF by the 15th of each month.",
+    "action": "Log in to passbook.epfindia.gov.in with your UAN once every quarter to confirm monthly employer and employee credits.",
+    "tag": "Retirement",
+    "source": "EPFO Regulations"
+  },
+  {
+    "id": 37,
+    "title": "The 'Cashless Everywhere' initiative by General Insurance Council",
+    "snippet": "Under the new Cashless Everywhere framework, you can now avail cashless hospitalization at ANY hospital across India, even if that hospital is not in your insurer's official network, provided you notify 48 hours before planned admission.",
+    "action": "Inform your insurer 48 hours prior to planned hospital admission to trigger cashless processing at non-network hospitals.",
+    "tag": "Health Insurance",
+    "source": "General Insurance Council"
+  },
+  {
+    "id": 38,
+    "title": "How to cancel unwanted recurring UPI auto-debits in seconds",
+    "snippet": "Streaming subscriptions, gym memberships, and app trials set up recurring UPI e-mandates that silently drain your account every month even if you uninstalled the app.",
+    "action": "Open Google Pay / PhonePe / BHIM, go to Settings -> 'Autopay / Mandates', and revoke any subscription you no longer use.",
+    "tag": "Banking",
+    "source": "NPCI UPI Autopay Guidelines"
+  },
+  {
+    "id": 39,
+    "title": "Beneficial Nominee rule: Why family protection is absolute in Term Insurance",
+    "snippet": "Under Section 39 of the Insurance Act, naming your spouse, children, or parents as nominees in your term policy makes them 'Beneficial Nominees'. Other distant relatives or creditors cannot lay claim to the death benefit payout.",
+    "action": "Verify that your term insurance policy designates your immediate family as Beneficial Nominees with complete KYC.",
+    "tag": "Insurance",
+    "source": "Insurance Laws (Amendment) Act"
+  },
+  {
+    "id": 40,
+    "title": "Section 44ADA: The freelance tax superpower",
+    "snippet": "Independent software developers, designers, and consultants earning up to ₹75 Lakh can declare a flat 50% of gross receipts as taxable profit with zero accounting audits and zero expense receipts required.",
+    "action": "File ITR-4 under Section 44ADA if you freelance or moonlight as a technical consultant.",
+    "tag": "Freelance Tax",
+    "source": "Income Tax Department"
+  },
+  {
+    "id": 41,
+    "title": "Consumables add-on rider: Plug the 15% hospital bill gap",
+    "snippet": "Standard health insurance policies exclude single-use items like gloves, syringes, sanitizers, and PPE kits, leaving you with ₹25,000+ out of pocket. A consumables rider costs ~₹500/year and covers 100% of these expenses.",
+    "action": "Always add a 'Consumables Cover' rider when purchasing or renewing your personal health insurance.",
+    "tag": "Health Insurance",
+    "source": "IRDAI Health Regulations"
+  },
+  {
+    "id": 42,
+    "title": "Credit card reward points are not permanent savings accounts",
+    "snippet": "Banks frequently devalue reward catalogues and airline point transfer ratios without prior notice. Hoarding points for multiple years risks sudden devaluation.",
+    "action": "Follow the 'Earn and Burn' rule: redeem your reward points within 6 to 12 months for flights, hotel stays, or statement credit.",
+    "tag": "Credit Cards",
+    "source": "Credit Card Industry Best Practices"
+  },
+  {
+    "id": 43,
+    "title": "Auto-reversal penalty: Banks owe you ₹100/day for stuck UPI transfers",
+    "snippet": "If an auto-reversal of a failed UPI or IMPS transaction is not completed within T+1 business day, the RBI mandates that the bank must pay you compensation of ₹100 for each day of delay automatically.",
+    "action": "Track the 12-digit UTR number and demand RBI compensation if a stuck transfer takes longer than 48 hours to reverse.",
+    "tag": "Consumer Rights",
+    "source": "RBI Harmonisation of Turnaround Time"
+  },
+  {
+    "id": 44,
+    "title": "Room rent capping: The dangerous clause in cheap health insurance",
+    "snippet": "A 1% room rent cap triggers proportionate deductions on doctor fees, surgery costs, and ICU charges if you pick a higher room category, cutting claim payouts by 40% to 50%.",
+    "action": "Only buy health policies that explicitly offer 'Single Private Room with No Capping'.",
+    "tag": "Health Insurance",
+    "source": "Insurance Ombudsman Precedents"
+  },
+  {
+    "id": 45,
+    "title": "PPF (Public Provident Fund): The gold standard of EEE tax status",
+    "snippet": "PPF is one of the few instruments enjoying EEE status: contributions are tax-deductible under 80C, interest earned is 100% tax-free, and maturity withdrawal after 15 years is completely tax-free.",
+    "action": "Open a PPF account through net banking and deposit even ₹500/year to keep the 15-year compounding clock ticking.",
+    "tag": "Savings",
+    "source": "Ministry of Finance"
+  },
+  {
+    "id": 46,
+    "title": "International roaming card locks: Block silent overseas swipe fraud",
+    "snippet": "Over 70% of credit card unauthorized credential stuffing happens through compromised international payment gateways that do not require Indian 2FA OTP verification.",
+    "action": "Keep 'International Transactions' and 'Online Card Not Present' toggled OFF in your banking app until you actually travel abroad.",
+    "tag": "Card Security",
+    "source": "RBI Cyber Security Framework"
+  },
+  {
+    "id": 47,
+    "title": "Pay rent to parents legally and claim HRA tax exemption",
+    "snippet": "You can legally pay rent to your parents and claim HRA exemption under Section 10(13A) if the property is owned by them, rent is transferred via bank transfer, and they declare it in their ITR.",
+    "action": "Draft a formal rent agreement and transfer rent via net banking to build a compliant audit trail.",
+    "tag": "Tax Planning",
+    "source": "Income Tax Appellate Tribunal"
+  },
+  {
+    "id": 48,
+    "title": "National Cyber Crime Helpline 1930: Act during the Golden Hour",
+    "snippet": "If defrauded via UPI or net banking, reporting to 1930 within the first 2 hours ('golden hour') allows authorities to freeze recipient mule accounts before criminals withdraw cash at ATMs.",
+    "action": "Save 1930 in your mobile phone contacts right now under 'Cyber Helpline'.",
+    "tag": "Fraud Defense",
+    "source": "Indian Cyber Crime Coordination Centre"
+  },
+  {
+    "id": 49,
+    "title": "Direct Mutual Funds save 20%+ of your total lifetime retirement wealth",
+    "snippet": "Regular mutual fund plans deduct 1.0% to 1.5% in ongoing distributor commissions every day. Compounded over 25 years, this commission takes over 20% of your total portfolio value.",
+    "action": "Always verify that every fund in your portfolio has 'Direct Plan' in its title, never 'Regular'.",
+    "tag": "Investing",
+    "source": "AMFI Direct Plan Analytics"
+  },
+  {
+    "id": 50,
+    "title": "Don't fall for the 'Return of Premium' term insurance marketing trap",
+    "snippet": "Return of Premium (TROP) plans charge 2x to 3x higher premiums just to return nominal cash at age 60. Buy standard pure term insurance and invest the difference in an index fund for 5x more wealth.",
+    "action": "Choose Pure Term Insurance without return of premium add-ons to keep protection costs rock-bottom.",
+    "tag": "Insurance",
+    "source": "Actuarial Science Principles"
+  },
+  {
+    "id": 51,
+    "title": "Asset allocation is your helmet against market volatility",
+    "snippet": "Following a 70% Equity, 20% Debt, and 10% Gold allocation ensures you have peace of mind during market drops while keeping your wealth compounding above inflation across decades.",
+    "action": "Rebalance your asset allocation once a year by trimming top performers to restore your original target percentages.",
+    "tag": "Portfolio Strategy",
+    "source": "Modern Portfolio Theory"
   }
 ]

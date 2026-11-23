@@ -126,5 +126,69 @@
         "detail": "Check official IRDAI public disclosures for consistent multi-year settlement rates."
       }
     ]
+  },
+  {
+    "id": "freelancer-tax-hygiene",
+    "title": "Freelancer & Remote Contractor Tax Checklist",
+    "description": "Essential compliance steps for software consultants, creators, and remote contract workers.",
+    "items": [
+      {
+        "id": "free-1",
+        "label": "Audit Section 44ADA Eligibility",
+        "detail": "Verify your profession is listed and gross receipts are within the ₹75 Lakh ceiling."
+      },
+      {
+        "id": "free-2",
+        "label": "File Letter of Undertaking (LUT) on GST Portal",
+        "detail": "If exporting services internationally, file LUT annually to pay 0% GST on foreign client invoices."
+      },
+      {
+        "id": "free-3",
+        "label": "Download Foreign Inward Remittance (FIRC/FIRA)",
+        "detail": "Collect FIRAs from your bank or payment gateway (Wise, Stripe) for all foreign currency inward transfers."
+      },
+      {
+        "id": "free-4",
+        "label": "Pay 100% Advance Tax Before March 15",
+        "detail": "Section 44ADA taxpayers must settle all estimated annual tax liability by March 15 to avoid 234B/C interest."
+      },
+      {
+        "id": "free-5",
+        "label": "Cross-Verify AIS and 26AS Portals",
+        "detail": "Check TDS deducted under Section 194J by Indian clients against your PAN before submitting ITR-4."
+      }
+    ]
+  },
+  {
+    "id": "hospital-cashless-claim",
+    "title": "Hospitalization & Cashless Claim Checklist",
+    "description": "Critical procedure to ensure smooth hospital admission and avoid surprise billing deductions.",
+    "items": [
+      {
+        "id": "hosp-1",
+        "label": "Verify Room Rent Category Eligibility",
+        "detail": "Confirm chosen hospital room complies with your policy's 'Single Private Room' terms to prevent proportionate deductions."
+      },
+      {
+        "id": "hosp-2",
+        "label": "Notify Insurer 48 Hours Prior (Planned)",
+        "detail": "Submit doctor's hospitalization advice at the TPA desk to receive pre-authorization before admission."
+      },
+      {
+        "id": "hosp-3",
+        "label": "Notify Within 24 Hours (Emergency)",
+        "detail": "Call your insurer's 24x7 toll-free helpline to register the emergency case number immediately."
+      },
+      {
+        "id": "hosp-4",
+        "label": "Collect Full Set of Original Lab Reports",
+        "detail": "Demand printed diagnostic test reports (blood tests, MRI, ultrasound, biopsy) matching each medical bill."
+      },
+      {
+        "id": "hosp-5",
+        "label": "Audit Discharge Summary & Consumables Breakdown",
+        "detail": "Ensure doctor signatures, final discharge diagnosis, and itemized pharmacy bills are clearly legible."
+      }
+    ]
   }
 ]

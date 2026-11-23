@@ -1,0 +1,55 @@
+---
+title: "IMPS vs NEFT vs RTGS vs UPI: When to Use What & Resolving Stuck Payments"
+slug: "imps-neft-rtgs-upi-comparison"
+track: "banking-and-upi"
+order: 5
+readTime: "4 min read"
+difficulty: "Absolute Beginner"
+publishedAt: "2026-11-23"
+verifiedForFY: "FY 2026-27"
+keyTakeaways:
+  - "UPI is best for payments under ₹1 Lakh; IMPS for instant transfers up to ₹5 Lakh."
+  - "NEFT settles in half-hour batches with zero fees; RTGS is for large transfers of ₹2 Lakh+."
+  - "Under RBI rules, if an auto-reversal fails within T+1 day, the bank must pay ₹100/day penalty compensation."
+---
+
+When transferring money using your banking app, you face a dropdown menu with four choices: **UPI**, <Term id="imps">IMPS</Term>, <Term id="neft">NEFT</Term>, and <Term id="rtgs">RTGS</Term>.
+
+Choosing the wrong transfer method can cause unexpected settlement delays or transaction limits. Here is your definitive transfer matrix.
+
+### Comparison Matrix: Limits, Speed, and Fees
+
+| Parameter | UPI | IMPS | NEFT | RTGS |
+| --- | --- | --- | --- | --- |
+| **Speed** | Instant (< 2 sec) | Instant (< 5 sec) | Batch (settles in 30 mins) | Instant Real-Time |
+| **Minimum Limit** | ₹1 | ₹1 | ₹1 | **₹2,00,000 (₹2 Lakh)** |
+| **Maximum Limit** | ₹1 Lakh (₹5L for hospitals) | ₹5 Lakh per transfer | Unlimited in net banking | Unlimited |
+| **Availability** | 24x7x365 | 24x7x365 | 24x7x365 | 24x7x365 |
+| **Transaction Fee** | **₹0 (Free)** | ₹2 to ₹15 + GST | **₹0 (Free online)** | **₹0 (Free online)** |
+| **Identifier Needed** | VPA / Mobile number | Account + IFSC or MMID | Account + IFSC | Account + IFSC |
+
+### Decision Guide: Which One Should You Pick?
+
+- **Groceries, Food Delivery, Rent to Landlord under ₹1L:** Always pick **UPI**. It is zero-cost, instant, and frictionless.
+- **Buying a Used Car, Paying Tuition Fees (₹1L to ₹5L):** Use **IMPS**. The funds hit the recipient's bank account within 5 seconds even on Sunday midnight.
+- **Regular Large Transfers (₹50k to ₹10L) with No Immediate Rush:** Use **NEFT**. Online NEFT has zero bank charges and clears in the very next half-hourly RBI batch.
+- **Apartment Down Payment or Property Purchase (₹2 Lakh+):** Use **RTGS**. It bypasses batch queues and settles directly on the Reserve Bank of India's central gross settlement books.
+
+### What to Do If Your Money is Debited but Not Credited
+
+Every digital banking user experiences this nightmare at least once: money leaves your savings account, but the recipient never receives it, and the app status says *"Processing / Pending"*.
+
+#### The Official RBI Harmonisation Rule (Turnaround Time - TAT)
+Under Reserve Bank of India circulars:
+- **UPI Transfers:** Must auto-reverse within **T + 1 business day** (where T is the transaction date).
+- **IMPS Transfers:** Must auto-reverse or settle within **T + 1 day**.
+- **Compensation Penalty:** If the bank fails to credit your money back within the mandated T+1 day timeline, **the bank is legally obligated to pay you ₹100 per day of delay** automatically credited to your account!
+
+#### Action Steps to Resolve:
+1. Note down the **12-digit UTR (Unique Transaction Reference) number** from your debit SMS.
+2. Do not attempt the payment a second time until the pending status turns to "Failed" or "Success".
+3. If not reversed after 48 hours, file a complaint on the bank portal quoting the UTR number.
+4. If unresolved after 30 days, escalate directly to the **RBI Integrated Ombudsman Portal (cms.rbi.org.in)**.
+
+---
+*Verified against RBI Circular on Harmonisation of Turnaround Time (TAT) and Customer Compensation for Failed Transactions.*

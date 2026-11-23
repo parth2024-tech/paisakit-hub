@@ -168,5 +168,75 @@
     "term": "Money Mule Account",
     "shortDef": "A bank account rented or opened under someone else's name used by cybercriminals to launder illicit scam proceeds before withdrawing cash.",
     "example": "Never rent out your bank account or share OTPs for a ₹2,000 commission; doing so makes you an accomplice in criminal money laundering."
+  },
+  "auto-sweep": {
+    "term": "Auto-Sweep (Multi-Option Deposit)",
+    "shortDef": "A banking facility that automatically sweeps idle balance above a chosen limit into fixed deposits earning 6.5%+ while maintaining instant debit liquidity.",
+    "example": "If your balance hits ₹60,000 with a ₹25,000 threshold, ₹35,000 automatically earns FD interest without locking your debit card."
+  },
+  "imps": {
+    "term": "Immediate Payment Service (IMPS)",
+    "shortDef": "An instant 24x7 interbank electronic fund transfer service managed by NPCI that credits funds within seconds using account numbers or mobile MMID.",
+    "example": "Using IMPS when transferring ₹1,50,000 to an auto dealer on a Sunday when NEFT batches are delayed."
+  },
+  "neft": {
+    "term": "National Electronic Funds Transfer (NEFT)",
+    "shortDef": "A nationwide payment system operated by RBI that settles electronic fund transfers in half-hourly batches 24x7 with zero processing fees.",
+    "example": "Scheduling rent transfers to your landlord via NEFT so the bank executes the transfer in the next half-hour batch."
+  },
+  "rtgs": {
+    "term": "Real Time Gross Settlement (RTGS)",
+    "shortDef": "A continuous, gross settlement system reserved for high-value fund transfers of ₹2,00,000 and above with zero batch delay.",
+    "example": "Using RTGS when wiring ₹15 Lakh for an apartment down payment or commercial land purchase."
+  },
+  "hra": {
+    "term": "House Rent Allowance (HRA)",
+    "shortDef": "A salary component providing tax exemption on actual rent paid if living in rented accommodation under the Old Tax Regime.",
+    "example": "Paying ₹18,000 rent to your parents who declare it on their tax return can save you ₹30,000+ in annual income taxes under the Old Regime."
+  },
+  "section-44ada": {
+    "term": "Section 44ADA (Presumptive Taxation)",
+    "shortDef": "A special tax scheme for specified professionals and freelancers earning up to ₹75 Lakh to declare 50% of gross receipts as taxable profit with zero audit books.",
+    "example": "A freelance software developer earning ₹20 Lakh gross pays tax on only ₹10 Lakh, claiming an automatic 50% deemed business expense deduction."
+  },
+  "section-80e": {
+    "term": "Section 80E (Education Loan Interest)",
+    "shortDef": "A tax deduction on the entire interest amount paid on higher education loans for up to 8 consecutive assessment years with no upper cap.",
+    "example": "If you pay ₹1.2 Lakh in student loan interest this year, the entire ₹1.2 Lakh is deductible from your taxable income under Section 80E."
+  },
+  "moratorium-period": {
+    "term": "Moratorium Period",
+    "shortDef": "A temporary repayment holiday granted on loans (such as during college course duration plus 6 months) where principal EMI is deferred.",
+    "example": "Paying simple interest during your 2-year MBA moratorium prevents accrued interest from compounding into your principal balance upon graduation."
+  },
+  "air-miles": {
+    "term": "Air Miles & Reward Points",
+    "shortDef": "Loyalty currency issued by credit card issuers that can be transferred to airline frequent flyer programmes to book flights at significant discounts.",
+    "example": "Accumulating 25,000 Axis Edge Miles or Amex points to redeem a business-class flight ticket that would otherwise cost ₹40,000."
+  },
+  "sgb": {
+    "term": "Sovereign Gold Bond (SGB)",
+    "shortDef": "Government securities denominated in grams of gold issued by the RBI, paying 2.5% annual interest with 100% tax-free capital gains at maturity.",
+    "example": "Buying SGBs instead of jewelry eliminates making charges, locker costs, and 3% GST while earning extra annual interest."
+  },
+  "room-rent-cap": {
+    "term": "Room Rent Capping",
+    "shortDef": "A health insurance restriction capping daily room rent (often 1% of sum insured). Exceeding it triggers proportionate deductions across entire hospital bills.",
+    "example": "A ₹5,000 room on a ₹3,000 capped policy causes the insurer to cut surgeon fees and ICU charges by 40% out of your own pocket."
+  },
+  "copay": {
+    "term": "Copayment (Copay)",
+    "shortDef": "A health insurance clause requiring the policyholder to pay a fixed percentage (e.g., 10% or 20%) of the admissible claim out of their own pocket.",
+    "example": "A 20% copay on a ₹4,00,000 hospitalization bill means you must pay ₹80,000 cash even if your sum insured is ₹10 Lakh."
+  },
+  "tpa": {
+    "term": "Third Party Administrator (TPA)",
+    "shortDef": "An IRDAI-licensed intermediary organization that processes insurance claims, issues pre-authorizations, and liaises between hospitals and insurers.",
+    "example": "Visiting the hospital insurance desk where the TPA officer verifies your policy number and initiates cashless admission approval."
+  },
+  "consumables": {
+    "term": "Medical Consumables",
+    "shortDef": "Single-use surgical items, PPE kits, syringes, gloves, and administrative supplies that standard base health insurance policies exclude from reimbursement.",
+    "example": "A ₹20,000 consumables bill for an appendectomy is rejected unless you have a modern 'Consumables Add-On Rider'."
   }
 }

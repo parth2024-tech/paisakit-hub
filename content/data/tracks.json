@@ -2,46 +2,46 @@
   {
     "slug": "banking-and-upi",
     "title": "Track 1: Banking & UPI",
-    "shortDescription": "Master everyday money management, auto-sweep accounts, and critical UPI fraud defense.",
+    "shortDescription": "Master everyday money management, auto-sweep accounts, stuck transfer recoveries, and critical UPI fraud defense.",
     "level": "Absolute Beginner",
-    "totalArticles": 3,
-    "estimatedTime": "12 min total",
+    "totalArticles": 5,
+    "estimatedTime": "20 min total",
     "icon": "Wallet"
   },
   {
     "slug": "taxes-and-first-income",
     "title": "Track 2: First Paycheck & Taxes",
-    "shortDescription": "Understand CTC breakdown, decode your payslip, compare tax regimes, and file ITR with ease.",
+    "shortDescription": "Understand CTC breakdown, decode payslips, master HRA exemptions, Section 44ADA for freelancers, and file ITR.",
     "level": "Beginner",
-    "totalArticles": 3,
-    "estimatedTime": "15 min total",
+    "totalArticles": 5,
+    "estimatedTime": "24 min total",
     "icon": "Receipt"
   },
   {
     "slug": "credit-and-debt",
     "title": "Track 3: Credit & Scams",
-    "shortDescription": "Build a 750+ CIBIL score from scratch, expose no-cost EMI traps, and identify phishing scams.",
+    "shortDescription": "Build a 750+ CIBIL score, master air miles, crush education loans, and expose predatory loan app scams.",
     "level": "Beginner to Intermediate",
-    "totalArticles": 3,
-    "estimatedTime": "14 min total",
+    "totalArticles": 5,
+    "estimatedTime": "22 min total",
     "icon": "CreditCard"
   },
   {
     "slug": "investing-basics",
     "title": "Track 4: Investing 101",
-    "shortDescription": "Beat inflation, harness compounding from your 20s, and invest in your first index fund.",
+    "shortDescription": "Beat inflation, harness compounding from your 20s, invest in direct index funds, and decode Sovereign Gold Bonds.",
     "level": "Beginner to Intermediate",
-    "totalArticles": 3,
-    "estimatedTime": "16 min total",
+    "totalArticles": 5,
+    "estimatedTime": "25 min total",
     "icon": "TrendingUp"
   },
   {
     "slug": "insurance-and-protection",
     "title": "Track 5: Insurance & Protection",
-    "shortDescription": "Avoid the endowment trap, secure personal health cover beyond your employer, and set legal nominees.",
+    "shortDescription": "Avoid the endowment trap, secure personal health cover beyond your employer, claim cashless hospital bills, and lock in legal nominees.",
     "level": "Essential Beginner",
-    "totalArticles": 3,
-    "estimatedTime": "15 min total",
+    "totalArticles": 5,
+    "estimatedTime": "23 min total",
     "icon": "Shield"
   }
 ]
