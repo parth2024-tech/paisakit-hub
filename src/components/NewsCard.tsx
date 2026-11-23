@@ -1,5 +1,5 @@
 import React from "react";
-import { ExternalLink, Calendar, Newspaper } from "lucide-react";
+import { ExternalLink, Calendar, Newspaper, Check } from "lucide-react";
 import { FeedItem } from "@/lib/rss";
 
 interface NewsCardProps {
@@ -17,12 +17,18 @@ export function NewsCard({ item }: NewsCardProps) {
   const badgeStyle = CATEGORY_STYLES[item.category] || "bg-slate-100 text-slate-800 border-slate-300";
 
   return (
-    <article className="group bg-surface border border-ink-200 rounded-lg p-5 flex flex-col justify-between hover:border-brand transition-all hover:shadow-sm">
+    <article className="group bg-surface border border-ink-200 rounded-lg p-5 flex flex-col justify-between hover:border-brand transition-all hover:shadow-xs">
       <div>
         <div className="flex items-center justify-between gap-2 mb-3">
-          <span className={`inline-block px-2 py-0.5 rounded text-[11px] font-semibold border ${badgeStyle}`}>
-            {item.category}
-          </span>
+          <div className="flex items-center gap-1.5">
+            <span className={`inline-block px-2 py-0.5 rounded text-[10px] font-semibold border ${badgeStyle}`}>
+              {item.category}
+            </span>
+            <span className="inline-flex items-center gap-1 px-1.5 py-0.5 rounded text-[10px] font-semibold bg-emerald-50 text-emerald-700 border border-emerald-200">
+              <Check className="w-2.5 h-2.5" /> Free Read
+            </span>
+          </div>
+
           <span className="flex items-center gap-1 text-[11px] text-ink-500 font-medium">
             <Calendar className="w-3 h-3" />
             {item.pubDate}
@@ -55,9 +61,9 @@ export function NewsCard({ item }: NewsCardProps) {
           href={item.link}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-1 text-ink-700 group-hover:text-brand font-semibold transition-colors"
+          className="inline-flex items-center gap-1 text-brand font-semibold group-hover:underline"
         >
-          Read <ExternalLink className="w-3 h-3" />
+          Open Article <ExternalLink className="w-3 h-3" />
         </a>
       </div>
     </article>

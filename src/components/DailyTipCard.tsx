@@ -2,7 +2,7 @@
 
 import React, { useState, useMemo } from "react";
 import tipsData from "@/../content/data/daily-tips.json";
-import { Sparkles, Share2, Copy, Check, ArrowRight, Bookmark, BookmarkCheck } from "lucide-react";
+import { Sparkles, Share2, Copy, Check, ArrowRight, Bookmark, BookmarkCheck, Flame } from "lucide-react";
 import { useProgress } from "@/hooks/useProgress";
 
 interface Tip {
@@ -17,7 +17,7 @@ interface Tip {
 const tips = tipsData as Tip[];
 
 export function DailyTipCard() {
-  const { isHydrated, isTipBookmarked, toggleBookmarkTip } = useProgress();
+  const { isHydrated, isTipBookmarked, toggleBookmarkTip, streakCount } = useProgress();
   const [copied, setCopied] = useState(false);
 
   // Calculate day of year deterministically
@@ -65,6 +65,15 @@ export function DailyTipCard() {
             <Sparkles className="w-3.5 h-3.5 text-brand" />
             1-Minute Money Tip
           </span>
+          {isHydrated && (
+            <span
+              className="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-amberBrand-subtle border border-amberBrand-border text-amber-900 text-xs font-bold"
+              title="Daily Reading Streak"
+            >
+              <Flame className="w-3.5 h-3.5 text-amber-600 fill-amber-500" />
+              {streakCount}-Day Streak
+            </span>
+          )}
           <span className="text-xs text-ink-500 font-medium">
             Tip #{currentTip.id} of {tips.length}
           </span>

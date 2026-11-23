@@ -64,6 +64,36 @@
     "shortDef": "Pure financial protection that pays a guaranteed tax-free lump sum to your family if you pass away during the policy term.",
     "example": "A 24-year-old non-smoker can get a ₹1 Crore term life cover for under ₹800 per month."
   },
+  "ulip": {
+    "term": "Unit Linked Insurance Plan (ULIP)",
+    "shortDef": "A hybrid product that combines insurance with market investments, often burdened with high agent commissions and mortality charges.",
+    "example": "An agent claims a ULIP gives both life cover and stock returns, but high upfront fees yield sub-5% returns compared to separate term insurance + index funds."
+  },
+  "endowment-policy": {
+    "term": "Endowment Policy",
+    "shortDef": "A traditional life insurance policy that pays a lump sum on death or maturity, typically delivering low 4% to 5% returns.",
+    "example": "Paying ₹50,000 a year for 20 years to get ₹15 Lakh maturity provides neither sufficient life protection nor inflation-beating returns."
+  },
+  "corporate-health-insurance": {
+    "term": "Corporate Group Health Insurance",
+    "shortDef": "Medical insurance provided by your employer that terminates the exact day you resign, get laid off, or leave the company.",
+    "example": "Relying solely on your company's ₹3 Lakh health card leaves you completely uninsured when transitioning between startup jobs."
+  },
+  "super-top-up": {
+    "term": "Super Top-Up Health Cover",
+    "shortDef": "A cost-effective health insurance policy that activates once your cumulative hospital bills in a year exceed a deductible threshold.",
+    "example": "A ₹20 Lakh super top-up with a ₹5 Lakh deductible costs around ₹3,000/year, providing massive protection if a surgery exceeds your base cover."
+  },
+  "nominee": {
+    "term": "Nominee",
+    "shortDef": "The legal custodian designated to receive bank balances, mutual fund units, or insurance payouts upon an account holder's death.",
+    "example": "Adding your mother or spouse as a verified nominee prevents your savings from getting tied up in civil succession court for years."
+  },
+  "claim-settlement-ratio": {
+    "term": "Claim Settlement Ratio (CSR)",
+    "shortDef": "The percentage of insurance claims an insurer pays out relative to the total claims received in a financial year.",
+    "example": "Choosing an insurer with a CSR above 98% for three consecutive years ensures your family won't face arbitrary claim rejections."
+  },
   "compounding": {
     "term": "Compound Interest",
     "shortDef": "Earning returns not only on your original invested principal, but also on the accumulated interest and gains from previous periods.",
@@ -128,5 +158,15 @@
     "term": "Public Provident Fund (PPF)",
     "shortDef": "A government-backed 15-year long-term savings scheme offering guaranteed, tax-free interest under the EEE (Exempt-Exempt-Exempt) tax category.",
     "example": "Depositing ₹1.5 Lakh annually into PPF locks money in for 15 years with zero tax on contribution, zero tax on interest, and zero tax on withdrawal."
+  },
+  "digital-arrest": {
+    "term": "Digital Arrest Scam",
+    "shortDef": "A cyber extortion scam where criminals impersonate CBI, Police, or Customs officers over Skype/WhatsApp video calls, holding victims under coercive fake interrogation.",
+    "example": "Fraudsters claiming a parcel of illegal narcotics was found in your name and demanding you stay on video call while transferring 'clearance funds'."
+  },
+  "mule-account": {
+    "term": "Money Mule Account",
+    "shortDef": "A bank account rented or opened under someone else's name used by cybercriminals to launder illicit scam proceeds before withdrawing cash.",
+    "example": "Never rent out your bank account or share OTPs for a ₹2,000 commission; doing so makes you an accomplice in criminal money laundering."
   }
 }

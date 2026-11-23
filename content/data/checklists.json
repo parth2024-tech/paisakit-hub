@@ -1,0 +1,130 @@
+[
+  {
+    "id": "first-salary",
+    "title": "First Salary Day Checklist",
+    "description": "Critical administrative and financial hygiene actions to take the week your first salary arrives.",
+    "items": [
+      {
+        "id": "sal-1",
+        "label": "Audit Payslip Deductions",
+        "detail": "Verify Employee PF (12% of basic) and TDS match your offer letter annexure."
+      },
+      {
+        "id": "sal-2",
+        "label": "Activate Bank Auto-Sweep",
+        "detail": "Set a ₹25,000 threshold so excess idle cash earns 6.5%+ in sweep FDs."
+      },
+      {
+        "id": "sal-3",
+        "label": "Apply the 50/30/20 Rule",
+        "detail": "Transfer 20% immediately to savings before paying discretionary bills."
+      },
+      {
+        "id": "sal-4",
+        "label": "Register Nominee on Bank Account",
+        "detail": "Add parents or spouse as registered nominee via net banking."
+      },
+      {
+        "id": "sal-5",
+        "label": "Seed UAN on EPFO Portal",
+        "detail": "Log in to unifiedportal-mem.epfindia.gov.in and activate your Universal Account Number."
+      }
+    ]
+  },
+  {
+    "id": "first-credit-card",
+    "title": "Before Applying for Your First Credit Card",
+    "description": "Essential safeguards to prevent CIBIL damage and avoid predatory fee structures.",
+    "items": [
+      {
+        "id": "cc-1",
+        "label": "Choose a Lifetime-Free (LTF) Card",
+        "detail": "Avoid high annual fee cards until your spending organically justifies reward structures."
+      },
+      {
+        "id": "cc-2",
+        "label": "Check Existing CIBIL Score Once",
+        "detail": "Ensure your baseline score is 700+; do not apply if you have recent defaults."
+      },
+      {
+        "id": "cc-3",
+        "label": "Avoid Multiple Simultaneous Applications",
+        "detail": "Applying to 4 banks in 1 week generates multiple hard inquiries, dropping your score."
+      },
+      {
+        "id": "cc-4",
+        "label": "Enable Total Amount Auto-Debit",
+        "detail": "Set net banking auto-debit for 'Total Amount Due' so you never miss a due date."
+      },
+      {
+        "id": "cc-5",
+        "label": "Turn Off International & ATM Cash Withdrawal",
+        "detail": "Disable ATM cash withdrawal in app settings (credit card ATM withdrawals incur immediate 40%+ interest with zero grace period)."
+      }
+    ]
+  },
+  {
+    "id": "first-mutual-fund",
+    "title": "Opening Your First Mutual Fund Account",
+    "description": "Checklist to ensure 100% of your compounding returns work for you without broker leakage.",
+    "items": [
+      {
+        "id": "mf-1",
+        "label": "Verify 'Direct Plan - Growth' Selection",
+        "detail": "Never choose Regular plans (paying ongoing agent commission) or IDCW dividend options."
+      },
+      {
+        "id": "mf-2",
+        "label": "Check Expense Ratio (< 0.25%)",
+        "detail": "Choose broad index funds (Nifty 50 or Nifty Next 50) with rock-bottom expense ratios."
+      },
+      {
+        "id": "mf-3",
+        "label": "Set SIP Date on the 3rd or 5th of the Month",
+        "detail": "Align automated debit right after salary credit so you invest before lifestyle spending."
+      },
+      {
+        "id": "mf-4",
+        "label": "Add 2 Nominees with Allocation Percentage",
+        "detail": "Specify nominee PAN and legal relationship in the Demat/AMC folio."
+      },
+      {
+        "id": "mf-5",
+        "label": "Commit to a 5-Year Holding Horizon",
+        "detail": "Promise yourself not to stop your SIP during normal market pullbacks."
+      }
+    ]
+  },
+  {
+    "id": "insurance-protection",
+    "title": "First Insurance Policy Buying Checklist",
+    "description": "Audit protection coverage and eliminate high-commission agent mis-selling.",
+    "items": [
+      {
+        "id": "ins-1",
+        "label": "Reject Any Plan Offering 'Maturity Returns'",
+        "detail": "If it promises money back, it is an endowment/ULIP giving sub-5% returns. Buy pure term cover only."
+      },
+      {
+        "id": "ins-2",
+        "label": "Calculate Sum Assured (15x-20x Annual Income)",
+        "detail": "Ensure minimum cover is ₹1 Crore to ₹1.5 Crore to adequately protect dependents."
+      },
+      {
+        "id": "ins-3",
+        "label": "Disclose 100% Truthful Medical History",
+        "detail": "Declare smoking, alcohol, prior surgeries, or family illness so claims can never be contested."
+      },
+      {
+        "id": "ins-4",
+        "label": "Get a Personal ₹5-10L Health Base Policy",
+        "detail": "Do not rely on employer corporate cover that vanishes if you change jobs or get laid off."
+      },
+      {
+        "id": "ins-5",
+        "label": "Verify Claim Settlement Ratio (> 98%)",
+        "detail": "Check official IRDAI public disclosures for consistent multi-year settlement rates."
+      }
+    ]
+  }
+]

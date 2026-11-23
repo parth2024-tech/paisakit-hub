@@ -1,0 +1,90 @@
+[
+  {
+    "id": "telegram-tasks",
+    "name": "The Fake Telegram 'Review / Hotel Rating' Job Scam",
+    "severity": "CRITICAL",
+    "lossRisk": "₹5,000 to ₹15 Lakh+",
+    "target": "College students, homemakers, young graduates looking for part-time income",
+    "howItWorks": "You receive a WhatsApp message from a recruiter offering ₹2,000 to ₹5,000 daily for 'rating YouTube videos, Google Maps hotels, or liking Instagram posts'. They pay you ₹150–₹500 for the first 3 simple tasks to build trust. Then, they add you to a VIP Telegram group and demand 'prepaid cryptocurrency merchant tasks' or deposit ₹10,000 to unlock ₹15,000. Once you deposit substantial money, the group freezes your withdrawals and demands 'processing fees' to release funds.",
+    "redFlags": [
+      "Job offer arrived unsolicited on WhatsApp or Telegram from international numbers (+62, +84, +234)",
+      "Promises ₹3,000/day for mindless tasks like liking reels or submitting 5-star Google ratings",
+      "Demands you pay an upfront 'security deposit' or 'recharge balance' to continue working",
+      "Profits are displayed on a shady, simulated trading website (not real bank accounts)"
+    ],
+    "immediateAction": "Stop sending money immediately. Do not pay any 'withdrawal tax'. Block all contacts, take screenshots of chat logs and transaction UTR numbers, and report immediately to cybercrime.gov.in and call 1930."
+  },
+  {
+    "id": "digital-arrest",
+    "name": "The 'Digital Arrest' & Fake CBI / Customs Video Call Scam",
+    "severity": "CRITICAL",
+    "lossRisk": "₹50,000 to ₹2 Crore+",
+    "target": "Salaried professionals, elderly citizens, tech workers",
+    "howItWorks": "You receive an automated IVR call claiming your telecom number will be disconnected within 2 hours, or that a FedEx parcel sent in your name to Taiwan/Cambodia was seized containing drugs and fake passports. The call transfers to fake police or CBI officers wearing uniforms on Skype/WhatsApp video calls. They produce forged Supreme Court arrest warrants and demand you stay on continuous 24-hour video surveillance ('digital arrest') while you transfer all bank savings to 'RBI verification secret accounts' to prove your innocence.",
+    "redFlags": [
+      "Indian law enforcement NEVER conducts arrests, trials, or bail hearings over Skype or WhatsApp video",
+      "Legitimate police or CBI NEVER demand you transfer money to 'verification accounts'",
+      "Callers insist you stay in an isolated room with video cameras running and not inform family",
+      "Callers threaten immediate physical arrest unless you keep the video call connected"
+    ],
+    "immediateAction": "Hang up the call immediately. No law enforcement agency has the legal authority to place anyone under 'digital arrest'. Call 1930 to report the phone numbers and alert your local police station."
+  },
+  {
+    "id": "upi-reverse-qr",
+    "name": "UPI 'Collect Request' & Reverse QR Code Scam",
+    "severity": "HIGH",
+    "lossRisk": "₹2,000 to ₹1,00,000+",
+    "target": "Anyone selling items on OLX, Facebook Marketplace, or paying utility bills",
+    "howItWorks": "A fake buyer agrees to buy your listed furniture or gadget without bargaining. They send a QR code or an in-app UPI 'Collect Request' saying: 'I am sending you the payment. Just scan this QR code or click accept and enter your UPI PIN to credit your bank.' The moment you enter your PIN, the funds are debited from your account.",
+    "redFlags": [
+      "Buyer claims they can only pay via QR code or army portal vouchers",
+      "Any prompt asking you to enter your 4-digit or 6-digit PIN to 'receive' money",
+      "Notifications with text like 'Approval required to receive ₹10,000 cashback'"
+    ],
+    "immediateAction": "Never approve collect requests from strangers. If funds were debited, freeze your net banking, log an in-app dispute, and call 1930 within 2 hours to freeze the recipient's bank account."
+  },
+  {
+    "id": "predatory-loan-apps",
+    "name": "Predatory Instant Loan Apps & Contact List Blackmail",
+    "severity": "CRITICAL",
+    "lossRisk": "Extortion, severe mental harassment, identity misuse",
+    "target": "Young adults in urgent need of ₹3,000–₹10,000 quick cash",
+    "howItWorks": "You install an unverified APK or third-party loan app advertised on Instagram promising 'No CIBIL needed, ₹5,000 credited in 5 minutes'. During installation, the app forces you to grant permissions for full contact list and photo gallery access. You receive ₹3,200 (after hefty 'processing charges'), and within 6 days, recovery agents call demanding ₹10,000, threatening to send morphed obscene photos to your parents, college friends, and boss.",
+    "redFlags": [
+      "App is downloaded via APK link rather than Google Play Store, or is from an unknown developer",
+      "Demands intrusive access to your contacts list, camera, and gallery to disburse a loan",
+      "Tenure is arbitrarily short (5 to 7 days) with interest rates equivalent to 500%+ per annum",
+      "No registered NBFC or RBI license is cited on the loan sanction letter"
+    ],
+    "immediateAction": "Uninstall the app, revoke all permissions, and alert your close contacts that an illegal app may send spam from hacked databases. Report the app and extortion phone numbers to cybercrime.gov.in and the RBI Sachet portal (sachet.rbi.org.in)."
+  },
+  {
+    "id": "whatsapp-crypto-vip",
+    "name": "Fake VIP Stock Market & Crypto Doubling Groups",
+    "severity": "HIGH",
+    "lossRisk": "₹25,000 to ₹50 Lakh+",
+    "target": "Young retail investors and stock traders",
+    "howItWorks": "You are added to a WhatsApp or Telegram group named after reputable institutional investors (e.g., 'Goldman Sachs VIP Wealth Group' or 'SEBI Institutional Desk'). 'Professors' and 'assistants' share screenshots of 500% daily gains (fabricated by bot accounts). Members are directed to download an offshore trading app to buy pre-IPO shares or crypto arbitrage. The app shows massive simulated paper profits, but every withdrawal request is rejected until you pay hefty 'tax clearance deposits'.",
+    "redFlags": [
+      "You were added to a financial group without your explicit consent",
+      "Guarantees 20% to 50% monthly profit with 'zero downside risk'",
+      "Trading is conducted through a custom APK or unlisted website rather than Zerodha, Groww, or Upstox",
+      "Group members continuously post identical celebratory messages praising the 'mentor'"
+    ],
+    "immediateAction": "Exit the group and report it for financial fraud inside WhatsApp. Never deposit funds into individual savings accounts masquerading as corporate trading desks."
+  },
+  {
+    "id": "sim-swap",
+    "name": "SIM Swap & eSIM Porting Fraud",
+    "severity": "CRITICAL",
+    "lossRisk": "Complete bank account takeover",
+    "target": "Anyone whose phone number is linked to bank OTPs",
+    "howItWorks": "Fraudsters gather your personal details (PAN, Aadhaar copy, DOB) from data leaks or phishing calls. They contact your telecom provider pretending to be you, claiming your phone was lost, and request an eSIM QR code or physical SIM replacement. The moment the replacement SIM activates on the fraudster's phone, your legitimate cellular signal dies completely. Fraudsters then initiate password resets and drain your bank balances using OTPs.",
+    "redFlags": [
+      "Your phone's mobile network abruptly drops to 'No Service' in an area with good coverage",
+      "You receive an unprompted SMS from your telecom operator about an eSIM transfer or SIM replacement request",
+      "Incoming calls and SMS verification texts suddenly stop arriving"
+    ],
+    "immediateAction": "If cellular service vanishes without explanation and you did not request a SIM change, immediately call your telecom operator from another phone to block the SIM, and call your bank to freeze all net banking and UPI access."
+  }
+]

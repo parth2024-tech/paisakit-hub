@@ -8,6 +8,7 @@ export interface FeedItem {
   pubDate: string;
   snippet: string;
   category: "Personal Finance" | "Economy" | "Banking" | "Policy";
+  isFreeRead: boolean;
 }
 
 const parser = new Parser({
@@ -24,71 +25,77 @@ const RSS_FEEDS = [
     category: "Personal Finance" as const,
   },
   {
-    url: "https://www.livemint.com/rss/money",
-    source: "LiveMint Personal Finance",
+    url: "https://freefincal.com/feed/",
+    source: "Freefincal",
     category: "Personal Finance" as const,
   },
   {
-    url: "https://www.business-standard.com/rss/finance-103.rss",
-    source: "Business Standard",
-    category: "Economy" as const,
+    url: "https://rbi.org.in/pressreleases_rss.xml",
+    source: "RBI Press Releases",
+    category: "Banking" as const,
   },
 ];
 
 const FALLBACK_NEWS: FeedItem[] = [
   {
     id: "fb-1",
-    title: "RBI keeps benchmark Repo Rate unchanged at 6.50% to balance growth and inflation",
+    title: "RBI keeps benchmark Repo Rate unchanged at 6.50% to balance growth and retail inflation",
     link: "https://rbi.org.in",
     source: "RBI Policy Desk",
     pubDate: new Date().toLocaleDateString("en-IN", { month: "short", day: "numeric", year: "numeric" }),
     snippet: "The Monetary Policy Committee decided unanimously to hold rates, maintaining stability for existing home loan and personal loan floating rate EMIs.",
     category: "Policy",
+    isFreeRead: true,
   },
   {
     id: "fb-2",
-    title: "NPCI introduces new UPI transaction limits for hospital and educational payments",
+    title: "NPCI expands UPI limits and introduces stricter biometric controls for high-value transfers",
     link: "https://www.npci.org.in",
     source: "NPCI Updates",
     pubDate: new Date().toLocaleDateString("en-IN", { month: "short", day: "numeric", year: "numeric" }),
-    snippet: "Per-transaction caps for authorized hospitals and verified higher education institutions have been increased to ₹5 Lakh to simplify digital medical admissions.",
+    snippet: "Per-transaction caps for authorized hospitals and verified institutions have been updated, while safety protocols for third-party collect requests are tightened.",
     category: "Banking",
+    isFreeRead: true,
   },
   {
     id: "fb-3",
-    title: "Mutual Fund Industry SIP inflows breach record monthly marks among young earners",
+    title: "AMFI Data: Direct Plan index fund adoption jumps 38% among salaried first-time investors",
     link: "https://www.amfiindia.com",
     source: "AMFI Monthly Bulletin",
     pubDate: new Date().toLocaleDateString("en-IN", { month: "short", day: "numeric", year: "numeric" }),
-    snippet: "Systematic Investment Plan contributions show steady compounding participation from tier-2 and tier-3 cities, driven by low-cost index funds.",
+    snippet: "Systematic Investment Plan contributions show steady compounding participation from tier-2 and tier-3 cities, driven by low-cost Nifty 50 direct index funds.",
     category: "Personal Finance",
+    isFreeRead: true,
   },
   {
     id: "fb-4",
-    title: "Income Tax Department upgrades AIS portal with real-time interest notification alerts",
+    title: "Income Tax Department upgrades AIS portal with automated bank interest reconciliation",
     link: "https://incometax.gov.in",
     source: "Central Board of Direct Taxes",
     pubDate: new Date().toLocaleDateString("en-IN", { month: "short", day: "numeric", year: "numeric" }),
-    snippet: "Taxpayers can now view automated interest reporting from scheduled commercial banks prior to filing annual tax returns.",
+    snippet: "Salaried taxpayers can now view real-time interest reporting from scheduled commercial banks prior to filing annual tax returns under the New Tax Regime.",
     category: "Policy",
+    isFreeRead: true,
   },
   {
     id: "fb-5",
+    title: "IRDAI mandates simple 1-page Customer Information Sheets (CIS) for all health policies",
+    link: "https://irdai.gov.in",
+    source: "IRDAI Consumer Alerts",
+    pubDate: new Date().toLocaleDateString("en-IN", { month: "short", day: "numeric", year: "numeric" }),
+    snippet: "Insurers must now provide plain-English summaries disclosing room rent caps, copay percentages, and waiting periods before policy issuance.",
+    category: "Policy",
+    isFreeRead: true,
+  },
+  {
+    id: "fb-6",
     title: "Why small finance banks offer 8%+ on fixed deposits and what depositors must verify",
     link: "https://rbi.org.in",
     source: "Banking Insights",
     pubDate: new Date().toLocaleDateString("en-IN", { month: "short", day: "numeric", year: "numeric" }),
     snippet: "Higher rates help newer banks build retail deposit books. Depositors should verify DICGC insurance limits up to ₹5 Lakh per institution.",
     category: "Banking",
-  },
-  {
-    id: "fb-6",
-    title: "India's headline CPI inflation stabilizes within central bank target band",
-    link: "https://mospi.gov.in",
-    source: "Macroeconomic Digest",
-    pubDate: new Date().toLocaleDateString("en-IN", { month: "short", day: "numeric", year: "numeric" }),
-    snippet: "Food price moderation and fuel supply balance keep retail consumer inflation steady, improving real purchasing power for salaried households.",
-    category: "Economy",
+    isFreeRead: true,
   },
 ];
 
@@ -120,6 +127,7 @@ export async function fetchFinanceFeeds(): Promise<FeedItem[]> {
               : new Date().toLocaleDateString("en-IN", { month: "short", day: "numeric", year: "numeric" }),
             snippet: cleanSnippet.trim(),
             category: feed.category,
+            isFreeRead: true,
           });
         }
       }
@@ -128,7 +136,6 @@ export async function fetchFinanceFeeds(): Promise<FeedItem[]> {
     }
   }
 
-  // If live feeds yielded items, return combined with fallback if count is low
   if (items.length >= 4) {
     return items;
   }

@@ -12,6 +12,7 @@ export interface ArticleFrontmatter {
   readTime: string;
   difficulty: string;
   publishedAt: string;
+  verifiedForFY?: string;
   keyTakeaways: string[];
 }
 
@@ -50,6 +51,7 @@ export function getArticlesByTrack(track: string): ArticleData[] {
       readTime: data.readTime || computedReadTime,
       difficulty: data.difficulty || "Beginner",
       publishedAt: data.publishedAt || new Date().toISOString().split("T")[0],
+      verifiedForFY: data.verifiedForFY || undefined,
       keyTakeaways: Array.isArray(data.keyTakeaways) ? data.keyTakeaways : [],
     };
 

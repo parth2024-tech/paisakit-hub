@@ -34,5 +34,14 @@
     "totalArticles": 3,
     "estimatedTime": "16 min total",
     "icon": "TrendingUp"
+  },
+  {
+    "slug": "insurance-and-protection",
+    "title": "Track 5: Insurance & Protection",
+    "shortDescription": "Avoid the endowment trap, secure personal health cover beyond your employer, and set legal nominees.",
+    "level": "Essential Beginner",
+    "totalArticles": 3,
+    "estimatedTime": "15 min total",
+    "icon": "Shield"
   }
 ]

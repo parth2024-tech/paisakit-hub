@@ -2,7 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
-import { ArrowRight, CheckCircle2, Clock, BookOpen, Wallet, Receipt, CreditCard, TrendingUp } from "lucide-react";
+import { ArrowRight, CheckCircle2, Clock, BookOpen, Wallet, Receipt, CreditCard, TrendingUp, Shield } from "lucide-react";
 import { useProgress } from "@/hooks/useProgress";
 
 interface TrackCardProps {
@@ -23,6 +23,7 @@ const ICON_MAP: Record<string, React.ElementType> = {
   Receipt,
   CreditCard,
   TrendingUp,
+  Shield,
 };
 
 export function TrackCard({ track, articleSlugs }: TrackCardProps) {

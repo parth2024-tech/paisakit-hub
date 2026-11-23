@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { MDXRemote } from "next-mdx-remote/rsc";
-import { ArrowLeft, ArrowRight, Clock, Calendar, CheckCircle, ChevronRight } from "lucide-react";
+import { ArrowLeft, ArrowRight, Clock, Calendar, CheckCircle, ChevronRight, ShieldCheck } from "lucide-react";
 import { getAllArticles, getArticleBySlug, getArticlesByTrack } from "@/lib/mdx";
 import tracksData from "@/../content/data/tracks.json";
 import { Term } from "@/components/JargonTooltip";
@@ -80,6 +80,12 @@ export default async function ArticlePage({ params }: Props) {
             <span className="font-semibold text-brand bg-brand-subtle border border-brand-border px-2.5 py-1 rounded">
               {trackInfo?.title || "Track"}
             </span>
+            {article.frontmatter.verifiedForFY && (
+              <span className="font-semibold text-emerald-800 bg-emerald-50 border border-emerald-300 px-2.5 py-1 rounded inline-flex items-center gap-1">
+                <ShieldCheck className="w-3.5 h-3.5 text-brand" />
+                Updated for {article.frontmatter.verifiedForFY}
+              </span>
+            )}
             <span className="text-ink-500 bg-ink-100 px-2 py-0.5 rounded font-medium">
               {article.frontmatter.difficulty}
             </span>

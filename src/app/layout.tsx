@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
+import { PwaRegister } from "@/components/PwaRegister";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,9 +32,13 @@ export const metadata: Metadata = {
     "CIBIL score improvement",
     "index fund investing for beginners",
     "money tips for young adults",
+    "term vs endowment life insurance",
+    "health insurance super top-up",
+    "scam alert India 1930 helpline",
   ],
   authors: [{ name: "PaisaKit Editorial" }],
   creator: "PaisaKit",
+  manifest: "/manifest.json",
   icons: {
     icon: [
       { url: "/icon.svg", type: "image/svg+xml" },
@@ -61,6 +66,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} font-sans bg-canvas text-ink-900 min-h-screen flex flex-col antialiased selection:bg-brand-border selection:text-brand-dark`}
       >
+        <PwaRegister />
         <Navbar />
         <main className="flex-1 max-w-6xl w-full mx-auto px-4 sm:px-6 py-6 sm:py-10">
           {children}
