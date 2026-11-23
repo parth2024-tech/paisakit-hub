@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "banking-and-upi",
+    "title": "Track 1: Banking & UPI",
+    "shortDescription": "Master everyday money management, auto-sweep accounts, and critical UPI fraud defense.",
+    "level": "Absolute Beginner",
+    "totalArticles": 3,
+    "estimatedTime": "12 min total",
+    "icon": "Wallet"
+  },
+  {
+    "slug": "taxes-and-first-income",
+    "title": "Track 2: First Paycheck & Taxes",
+    "shortDescription": "Understand CTC breakdown, decode your payslip, compare tax regimes, and file ITR with ease.",
+    "level": "Beginner",
+    "totalArticles": 3,
+    "estimatedTime": "15 min total",
+    "icon": "Receipt"
+  },
+  {
+    "slug": "credit-and-debt",
+    "title": "Track 3: Credit & Scams",
+    "shortDescription": "Build a 750+ CIBIL score from scratch, expose no-cost EMI traps, and identify phishing scams.",
+    "level": "Beginner to Intermediate",
+    "totalArticles": 3,
+    "estimatedTime": "14 min total",
+    "icon": "CreditCard"
+  },
+  {
+    "slug": "investing-basics",
+    "title": "Track 4: Investing 101",
+    "shortDescription": "Beat inflation, harness compounding from your 20s, and invest in your first index fund.",
+    "level": "Beginner to Intermediate",
+    "totalArticles": 3,
+    "estimatedTime": "16 min total",
+    "icon": "TrendingUp"
+  }
+]

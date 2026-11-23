@@ -1,0 +1,250 @@
+[
+  {
+    "id": 1,
+    "title": "Why your savings account loses money to inflation",
+    "snippet": "Most regular savings accounts offer 2.5% to 3.5% interest per year, while real inflation sits between 5% and 6%. If ₹1,00,000 sits idle, its real purchasing power drops by roughly ₹2,500 every single year.",
+    "action": "Keep 3–6 months of living expenses in an emergency liquid fund, but deploy remaining long-term money into inflation-beating assets.",
+    "tag": "Inflation",
+    "source": "RBI Bulletin / Macro Principles"
+  },
+  {
+    "id": 2,
+    "title": "The Golden Rule of UPI: Never enter a PIN to receive money",
+    "snippet": "UPI PIN is required exclusively when money is leaving your account. If anyone asks you to enter your PIN, scan a QR code, or approve a collect request to receive a prize or refund, it is 100% a scam.",
+    "action": "Always decline unsolicited 'Collect' requests immediately and report the VPA inside your UPI app.",
+    "tag": "UPI Safety",
+    "source": "NPCI Security Directives"
+  },
+  {
+    "id": 3,
+    "title": "The 50/30/20 Rule for your very first paycheck",
+    "snippet": "Allocate 50% of your net in-hand pay to essential needs (rent, groceries, transit), 30% to wants (eating out, hobbies), and at least 20% to emergency fund savings and investments.",
+    "action": "Automate an SIP on the 2nd day after salary credit so you invest before you spend.",
+    "tag": "Budgeting",
+    "source": "Personal Finance Best Practice"
+  },
+  {
+    "id": 4,
+    "title": "CTC is not in-hand: Decode the deductions",
+    "snippet": "Cost to Company (CTC) includes Employer PF, Gratuity, insurance premiums, and performance bonuses. Your monthly bank credit is after Employee PF (12% of basic) and professional tax.",
+    "action": "Calculate your net take-home before committing to apartment rent or recurring EMIs.",
+    "tag": "Taxes",
+    "source": "Income Tax Act / EPFO"
+  },
+  {
+    "id": 5,
+    "title": "Credit Utilization Ratio: Keep it strictly below 30%",
+    "snippet": "If your credit card limit is ₹1,00,000, spending more than ₹30,000 in a billing cycle signals credit hunger to CIBIL and Experian, depressing your credit score.",
+    "action": "Request a higher credit limit or pay down balances mid-month before the billing statement generates.",
+    "tag": "Credit",
+    "source": "CIBIL / TransUnion"
+  },
+  {
+    "id": 6,
+    "title": "The hidden cost in 'No-Cost' EMIs",
+    "snippet": "No-cost EMIs discount the product price by the bank interest, but the bank levies 18% GST on the interest component and often charges an upfront processing fee of ₹199–₹299.",
+    "action": "Calculate the effective total cash outflow before clicking zero-interest checkout.",
+    "tag": "Debt",
+    "source": "RBI Guidelines on Consumer Credit"
+  },
+  {
+    "id": 7,
+    "title": "Emergency Fund: 6 months of bare minimum survival expenses",
+    "snippet": "Before buying your first stock or mutual fund, build an emergency corpus covering 6 months of rent, groceries, loan EMIs, and utilities in an instant-redemption liquid fund or high-interest sweep FD.",
+    "action": "Never touch your emergency fund for festival shopping, vacations, or dip-buying stocks.",
+    "tag": "Emergency Fund",
+    "source": "SEBI Investor Education"
+  },
+  {
+    "id": 8,
+    "title": "Index Funds vs Active Mutual Funds: The expense ratio trap",
+    "snippet": "A 1% extra expense ratio in an active mutual fund compounds into over 25% of your total lifetime wealth lost over a 25-year horizon.",
+    "action": "Beginners can start with low-cost Nifty 50 or Nifty Next 50 direct index funds with expense ratios below 0.20%.",
+    "tag": "Investing",
+    "source": "SPIVA India Scorecard"
+  },
+  {
+    "id": 9,
+    "title": "Never buy ULIPs or Endowment plans disguised as investment",
+    "snippet": "Insurance is for financial protection; investments are for capital growth. Products that mix the two usually yield sub-par 4–5% returns with high commission load and lock-in periods.",
+    "action": "Buy a pure term life insurance cover (15x to 20x annual income) and invest the difference in diversified index funds.",
+    "tag": "Insurance",
+    "source": "IRDAI Consumer Protection"
+  },
+  {
+    "id": 10,
+    "title": "The power of starting at age 20 vs age 30",
+    "snippet": "Investing ₹5,000 monthly at 12% annual return from age 20 to 60 grows to ₹5.93 Crore. Starting just 10 years later at age 30 yields only ₹1.76 Crore—a massive ₹4.17 Crore opportunity cost.",
+    "action": "Start today even if your monthly contribution is only ₹500. Time in the market trumps timing the market.",
+    "tag": "Compounding",
+    "source": "Mathematical Compounding Law"
+  },
+  {
+    "id": 11,
+    "title": "Always choose 'Direct-Growth' over 'Regular-IDCW' mutual funds",
+    "snippet": "Regular mutual funds pay ongoing commissions to brokers out of your NAV every day. IDCW (dividend payout) creates unnecessary annual tax events.",
+    "action": "Pick 'Direct Plan - Growth Option' to keep 100% of the compounding returns working for you tax-deferred.",
+    "tag": "Mutual Funds",
+    "source": "AMFI Guidelines"
+  },
+  {
+    "id": 12,
+    "title": "The Rule of 72: Estimate how fast your money doubles",
+    "snippet": "Divide the number 72 by your expected annual rate of return. At 12% equity returns, your capital doubles approximately every 6 years (72 ÷ 12 = 6).",
+    "action": "Use the Rule of 72 to evaluate if an investment makes sense for your financial milestones.",
+    "tag": "Mental Models",
+    "source": "Financial Mathematics"
+  },
+  {
+    "id": 13,
+    "title": "How to handle credit card minimum due trap",
+    "snippet": "Paying only the 'Minimum Amount Due' leaves the remaining balance accruing compounding interest at 36% to 48% APR, plus revokes your interest-free grace period on all subsequent purchases.",
+    "action": "Always pay the Total Amount Due in full before the due date, never just the minimum.",
+    "tag": "Credit",
+    "source": "RBI Consumer Alerts"
+  },
+  {
+    "id": 14,
+    "title": "Step-up SIP: The superpower of annual salary hikes",
+    "snippet": "Increasing your SIP contribution by just 10% each year when you get an annual salary appraisal doubles your retirement corpus compared to a flat SIP.",
+    "action": "Turn on 'Annual Step-Up' of 10% in your investment platform settings.",
+    "tag": "SIP",
+    "source": "AMFI Industry Standards"
+  },
+  {
+    "id": 15,
+    "title": "Health Insurance: Why corporate cover is never enough",
+    "snippet": "Your company health cover vanishes immediately if you switch jobs, get laid off, or start a business. Pre-existing diseases take 2–3 years to become covered under new policies.",
+    "action": "Buy a personal base health insurance policy (with super top-up) while you are young and healthy with zero pre-existing conditions.",
+    "tag": "Healthcare",
+    "source": "IRDAI Health Regulations"
+  },
+  {
+    "id": 16,
+    "title": "Understanding Old vs New Tax Regime in 30 seconds",
+    "snippet": "The New Tax Regime provides lower tax slab rates and a higher rebate limit (up to ₹7.75 Lakh with standard deduction) with zero paperwork or investment proof submission.",
+    "action": "Unless you have heavy Section 80C, 80D, and HRA exemptions exceeding ₹3.5 Lakh, the New Regime is typically better for early-career professionals.",
+    "tag": "Taxation",
+    "source": "Union Budget 2024 / CBDT"
+  },
+  {
+    "id": 17,
+    "title": "Form 26AS and AIS: Your official tax audit trail",
+    "snippet": "The Annual Information Statement (AIS) records all high-value transactions, bank interest, stock dividends, and TDS deducted by your employer or bank against your PAN.",
+    "action": "Download and cross-verify your AIS from the Income Tax e-filing portal before submitting your ITR.",
+    "tag": "Tax Compliance",
+    "source": "Income Tax Department"
+  },
+  {
+    "id": 18,
+    "title": "The 24-Hour Cooling Rule for non-essential purchases",
+    "snippet": "When tempted to buy an impulse gadget, sneakers, or clothes online, wait 24 hours before completing checkout. Over 60% of impulse buying desires fade within a day.",
+    "action": "Add items to your wishlist rather than cart. If you still want it 72 hours later, evaluate its budget fit.",
+    "tag": "Habits",
+    "source": "Behavioral Economics"
+  },
+  {
+    "id": 19,
+    "title": "Beware of 'Guaranteed 20% Monthly Return' Telegram channels",
+    "snippet": "SEBI-regulated financial institutions never offer guaranteed double-digit monthly returns. Anyone running stock tips or crypto doubling groups is running an illegal Ponzi or pump-and-dump scheme.",
+    "action": "Only consult SEBI-registered Investment Advisers (RIA) or Research Analysts (RA). Check credentials on sebi.gov.in.",
+    "tag": "Scam Prevention",
+    "source": "SEBI Vigilance Cell"
+  },
+  {
+    "id": 20,
+    "title": "Auto-sweep FD: Earn 6.5%+ on idle bank balances",
+    "snippet": "An auto-sweep facility automatically converts bank balance above a set threshold (e.g., ₹25,000) into fixed deposits earning 6.5%–7%, while instantly liquidating when you swipe your card or pay rent.",
+    "action": "Enable 'Auto-Sweep / Multi-Option Deposit' in your bank's net banking portal today.",
+    "tag": "Banking",
+    "source": "Commercial Banking Features"
+  },
+  {
+    "id": 21,
+    "title": "Stock Diversification: Don't put everything into company stock (ESOPs)",
+    "snippet": "Your salary already depends on your employer's health. Holding all your savings in your employer's stock concentrates both your human capital and financial capital in a single basket.",
+    "action": "Gradually diversify vested ESOPs into broader index funds to protect against company downturns.",
+    "tag": "Portfolio Strategy",
+    "source": "Modern Portfolio Theory"
+  },
+  {
+    "id": 22,
+    "title": "Nomination: The simplest paperwork that saves families years of legal battles",
+    "snippet": "A bank account or mutual fund folio without an updated nominee can freeze for months or years in civil court upon an unexpected demise.",
+    "action": "Check all your bank accounts, Demat folios, and insurance policies to ensure nominees are registered with accurate PAN and DOB.",
+    "tag": "Estate Planning",
+    "source": "RBI / SEBI Mandates"
+  },
+  {
+    "id": 23,
+    "title": "Why peer-to-peer (P2P) lending is high-risk unsecured debt",
+    "snippet": "P2P platforms promise 10%–12% yields, but you are effectively lending money to borrowers whom banks rejected. Default rates during economic downturns can wipe out principal.",
+    "action": "Treat P2P lending as high-risk alternative asset allocation, capped at less than 5% of your total net worth.",
+    "tag": "Risk Management",
+    "source": "RBI P2P Master Directions"
+  },
+  {
+    "id": 24,
+    "title": "The Debt Avalanche vs Debt Snowball method",
+    "snippet": "Avalanche prioritizes paying debts with the highest interest rate first (saves most money). Snowball prioritizes the smallest balance first (provides quick psychological wins).",
+    "action": "Pick whichever method keeps you committed, but always pay high-cost credit cards first.",
+    "tag": "Debt Payoff",
+    "source": "Behavioral Finance"
+  },
+  {
+    "id": 25,
+    "title": "What happens if a bank fails? DICGC ₹5 Lakh deposit insurance",
+    "snippet": "Every scheduled commercial bank in India is insured by DICGC (an RBI subsidiary) up to ₹5,00,000 per depositor per bank (covering principal + interest).",
+    "action": "If your liquid cash exceeds ₹5 Lakh, spread it across 2–3 different scheduled commercial banks.",
+    "tag": "Banking Safety",
+    "source": "DICGC / Reserve Bank of India"
+  },
+  {
+    "id": 26,
+    "title": "LTCG vs STCG: The tax consequences of selling stocks",
+    "snippet": "Equity held for more than 12 months incurs Long-Term Capital Gains (LTCG) tax at 12.5% on gains exceeding ₹1.25 Lakh per financial year. Under 12 months is taxed as STCG at 20%.",
+    "action": "Avoid frequent intraday churn; holding quality investments for over a year preserves compounding and reduces tax friction.",
+    "tag": "Capital Gains",
+    "source": "Finance Act 2024"
+  },
+  {
+    "id": 27,
+    "title": "The truth about credit score checks: Soft vs Hard inquiries",
+    "snippet": "Checking your own credit score on bank apps or official credit bureau portals is a 'soft inquiry' and never harms your CIBIL score. Applying for 5 new credit cards in a week generates 'hard inquiries' that drag your score down.",
+    "action": "Check your CIBIL report free once a month to audit for fraudulent loan accounts in your name.",
+    "tag": "Credit Score",
+    "source": "Credit Information Companies Act"
+  },
+  {
+    "id": 28,
+    "title": "SIM Swap and eSIM Fraud: Secure your mobile identity",
+    "snippet": "Your phone number is the single authentication gate for all banking OTPs. Fraudsters trick telecom operators into issuing duplicate SIMs to seize your 2FA OTPs.",
+    "action": "Place a SIM lock PIN on your device, protect your telecom account with a strong password, and immediately alert your bank if cellular signal vanishes abruptly.",
+    "tag": "Cyber Security",
+    "source": "DoT / Cyber Crime Coordination Centre"
+  },
+  {
+    "id": 29,
+    "title": "Avoid lifestyle inflation with every promotion",
+    "snippet": "Lifestyle inflation occurs when your spending rises in exact proportion to your income increases, preventing you from actually building wealth despite earning more.",
+    "action": "Commit to saving at least 50% of every bonus or salary increment before upgrading your lifestyle.",
+    "tag": "Wealth Building",
+    "source": "Psychology of Money"
+  },
+  {
+    "id": 30,
+    "title": "Never take personal loans to invest in the stock market",
+    "snippet": "Leverage magnifies both gains and losses. If you borrow at 14% interest and the market drops 20%, you face both portfolio destruction and an inescapable monthly repayment liability.",
+    "action": "Only invest unencumbered surplus capital that you will not need for at least 3 to 5 years.",
+    "tag": "Risk Principles",
+    "source": "SEBI Investor Warning"
+  },
+  {
+    "id": 31,
+    "title": "Rebalancing: The emotion-free way to buy low and sell high",
+    "snippet": "When equity markets rally, your equity proportion might rise from 70% to 85%. Rebalancing means trimming winners and buying defensive debt to restore your original target allocation.",
+    "action": "Audit and rebalance your asset allocation once a year on your birthday or financial year-end.",
+    "tag": "Portfolio Strategy",
+    "source": "Asset Allocation Science"
+  }
+]

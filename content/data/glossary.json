@@ -1,0 +1,132 @@
+{
+  "inflation": {
+    "term": "Inflation",
+    "shortDef": "The steady rise in prices of goods and services over time, which reduces the real purchasing power of your money.",
+    "example": "A plate of biryani that cost ₹150 five years ago now costs ₹260. That difference is inflation eroding currency value."
+  },
+  "repo-rate": {
+    "term": "Repo Rate",
+    "shortDef": "The benchmark interest rate at which the Reserve Bank of India (RBI) lends money to commercial banks.",
+    "example": "When the RBI raises the repo rate, home loans and car EMIs become more expensive, cooling down spending."
+  },
+  "cibil-score": {
+    "term": "CIBIL Score",
+    "shortDef": "A 3-digit numerical score between 300 and 900 that grades your creditworthiness and history of repaying debts.",
+    "example": "A score above 750 gets you fast approval and lower interest rates on loans, whereas a score below 650 indicates high default risk."
+  },
+  "nifty-50": {
+    "term": "Nifty 50",
+    "shortDef": "The flagship stock index representing India's 50 largest, most actively traded blue-chip companies across 13 economic sectors.",
+    "example": "When news anchors announce 'the Indian market gained 1%', they are usually quoting the day's move in the Nifty 50."
+  },
+  "sip": {
+    "term": "Systematic Investment Plan (SIP)",
+    "shortDef": "An automated investment facility allowing you to invest a fixed amount into mutual funds at regular intervals (usually monthly).",
+    "example": "Scheduling ₹2,000 to automatically transfer into a Nifty 50 index fund on the 5th of every month is an SIP."
+  },
+  "mutual-fund": {
+    "term": "Mutual Fund",
+    "shortDef": "A pooled financial vehicle where money from thousands of investors is managed by professionals to purchase a basket of stocks, bonds, or commodities.",
+    "example": "Instead of buying 50 individual corporate shares yourself, you buy units of a mutual fund that owns all of them for you."
+  },
+  "index-fund": {
+    "term": "Index Fund",
+    "shortDef": "A low-cost mutual fund or ETF that passively replicates a market index like the Nifty 50 without trying to pick individual winning stocks.",
+    "example": "A Nifty 50 Index Fund buys the top 50 Indian companies in the exact same weight as the index, charging minimal management fees."
+  },
+  "expense-ratio": {
+    "term": "Expense Ratio",
+    "shortDef": "The annual percentage fee that a mutual fund charges to cover management, administrative, and distribution costs.",
+    "example": "An expense ratio of 0.2% on a ₹1,00,000 investment costs ₹200 a year, whereas a 1.5% regular fund charges ₹1,500 every single year."
+  },
+  "ctc": {
+    "term": "Cost to Company (CTC)",
+    "shortDef": "The total financial expenditure an employer spends on an employee annually, including non-cash benefits and statutory retiral benefits.",
+    "example": "A ₹12 Lakh CTC includes employer PF, gratuity accruals, health coverage, and bonus, leaving you with roughly ₹82,000 in monthly take-home."
+  },
+  "in-hand-salary": {
+    "term": "In-Hand Salary",
+    "shortDef": "The net amount of money that actually gets credited to your bank account on pay day after all taxes and statutory deductions.",
+    "example": "If your gross salary is ₹70,000, your in-hand may be ₹62,000 after ₹4,000 PF contribution, ₹3,800 TDS, and ₹200 professional tax."
+  },
+  "emergency-fund": {
+    "term": "Emergency Fund",
+    "shortDef": "A dedicated, easily accessible stash of cash reserved exclusively for unexpected life events like job loss, medical emergencies, or urgent house repairs.",
+    "example": "Saving 6 months of mandatory expenses (₹1,80,000 if your survival monthly budget is ₹30,000) stored in a sweep FD or liquid fund."
+  },
+  "no-cost-emi": {
+    "term": "No-Cost EMI",
+    "shortDef": "A financing scheme where the retailer gives an upfront discount equal to the interest charged by the bank, giving the illusion of zero interest.",
+    "example": "A ₹60,000 phone is discounted to ₹55,000; the bank charges ₹5,000 in interest plus 18% GST on the interest and processing fees."
+  },
+  "term-insurance": {
+    "term": "Term Life Insurance",
+    "shortDef": "Pure financial protection that pays a guaranteed tax-free lump sum to your family if you pass away during the policy term.",
+    "example": "A 24-year-old non-smoker can get a ₹1 Crore term life cover for under ₹800 per month."
+  },
+  "compounding": {
+    "term": "Compound Interest",
+    "shortDef": "Earning returns not only on your original invested principal, but also on the accumulated interest and gains from previous periods.",
+    "example": "₹10,000 growing at 10% earns ₹1,000 in year one. In year two, you earn 10% on ₹11,000 (₹1,100), accelerating exponentially over decades."
+  },
+  "upi": {
+    "term": "Unified Payments Interface (UPI)",
+    "shortDef": "India's real-time payment system developed by NPCI that enables instant money transfers between any two bank accounts via mobile phone.",
+    "example": "Scanning a QR code at your neighborhood grocery shop to instantly transfer ₹250 directly from your bank account."
+  },
+  "nav": {
+    "term": "Net Asset Value (NAV)",
+    "shortDef": "The per-unit market value of a mutual fund scheme, calculated by dividing the total value of its assets minus liabilities by outstanding units.",
+    "example": "If a mutual fund owns ₹10 Crore in assets and has 1 Crore units issued, the NAV is ₹10 per unit."
+  },
+  "ltcg": {
+    "term": "Long-Term Capital Gains (LTCG)",
+    "shortDef": "Profit earned on the sale of an asset or equity security held for longer than the statutory holding threshold (1 year for equity).",
+    "example": "If you buy shares for ₹1 Lakh and sell them for ₹2.5 Lakh after 18 months, your LTCG is ₹1.5 Lakh, taxed at 12.5% on amounts above ₹1.25 Lakh."
+  },
+  "stcg": {
+    "term": "Short-Term Capital Gains (STCG)",
+    "shortDef": "Profit realized from selling an asset or equity security before completing the qualifying holding period (under 12 months for equity).",
+    "example": "Selling shares at a ₹20,000 profit after holding for 3 months triggers STCG tax at a flat 20% rate."
+  },
+  "form-16": {
+    "term": "Form 16",
+    "shortDef": "An official certificate issued by an employer detailing the salary paid, allowances granted, and Tax Deducted at Source (TDS) deposited with the government.",
+    "example": "Your HR department issues Form 16 in May or June, which contains the exact figures needed to file your annual Income Tax Return."
+  },
+  "itr": {
+    "term": "Income Tax Return (ITR)",
+    "shortDef": "A prescribed government form submitted annually to the Income Tax Department declaring your income, deductions, and total tax liability.",
+    "example": "Filing ITR-1 before July 31st each year to report your salary income and claim any excess TDS refunds due."
+  },
+  "asset-allocation": {
+    "term": "Asset Allocation",
+    "shortDef": "The strategic division of your investment portfolio across different asset categories such as equity, debt (fixed income), gold, and liquid cash.",
+    "example": "A 25-year-old maintaining 70% in Indian equities, 20% in debt instruments, and 10% in gold for risk diversification."
+  },
+  "liquid-fund": {
+    "term": "Liquid Mutual Fund",
+    "shortDef": "A low-risk debt mutual fund that invests exclusively in ultra-short-term money market instruments with maturity up to 91 days.",
+    "example": "Parking your emergency fund in a liquid fund offers better yields than a savings account with instant redemption up to ₹50,000."
+  },
+  "dividend": {
+    "term": "Dividend",
+    "shortDef": "A share of profits that a company's board of directors elects to distribute directly to its shareholders in cash.",
+    "example": "If a company declares a dividend of ₹10 per share and you own 100 shares, you receive ₹1,000 directly into your bank account."
+  },
+  "dicgc": {
+    "term": "DICGC Insurance",
+    "shortDef": "Deposit Insurance and Credit Guarantee Corporation, an RBI subsidiary that insures bank deposits up to ₹5,00,000 per depositor per bank.",
+    "example": "If your bank becomes insolvent, DICGC guarantees reimbursement of your deposits up to ₹5 Lakh within 90 days."
+  },
+  "ais": {
+    "term": "Annual Information Statement (AIS)",
+    "shortDef": "A comprehensive statement generated by the tax department tracking all your financial transactions, interest earnings, dividends, and share sales.",
+    "example": "Checking your AIS before filing taxes ensures you don't forget to report interest from hidden savings accounts."
+  },
+  "ppf": {
+    "term": "Public Provident Fund (PPF)",
+    "shortDef": "A government-backed 15-year long-term savings scheme offering guaranteed, tax-free interest under the EEE (Exempt-Exempt-Exempt) tax category.",
+    "example": "Depositing ₹1.5 Lakh annually into PPF locks money in for 15 years with zero tax on contribution, zero tax on interest, and zero tax on withdrawal."
+  }
+}
