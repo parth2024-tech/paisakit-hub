@@ -75,6 +75,7 @@
     "Always mandate production web essentials: custom domain, custom favicon suite, remove AI badges, /privacy page, and /terms page",
     "Always follow the 6-step Second Brain closed loop: Load Conventions -> Select Model -> Autonomous Loop -> Validate Output -> Continuous Learning -> Automated Git Push",
     "Always enforce Arch Linux On-Demand System Governance (run interactive tools on-demand, terminate completely on exit)",
+    "Always pin questions and headers in sticky shrink-0 zones with max-h-[92dvh] and flex-1 overflow-y-auto so mobile browser viewports never cut off headers or question text",
     "Use gitleaks (gitleaks protect --staged) for zero secret leakage verification before committing or pushing",
     "Use ast-grep (sg scan) for structural AST-level syntax rules rather than regex linters",
     "Use just (justfile) for deterministic project verification and task runs",
