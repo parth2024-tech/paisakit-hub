@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { HelpCircle, ArrowRight, RotateCcw, X, Award } from "lucide-react";
 import Link from "next/link";
 
@@ -88,6 +88,25 @@ export function MoneyQuizModal() {
   const [selectedAnswers, setSelectedAnswers] = useState<Record<number, number>>({});
   const [isFinished, setIsFinished] = useState(false);
 
+  // Lock body scroll and listen for Escape key when modal is open
+  useEffect(() => {
+    if (!isOpen) return;
+    const originalOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Escape") {
+        setIsOpen(false);
+      }
+    };
+    window.addEventListener("keydown", handleKeyDown);
+
+    return () => {
+      document.body.style.overflow = originalOverflow;
+      window.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [isOpen]);
+
   const resetQuiz = () => {
     setCurrentStep(0);
     setSelectedAnswers({});
@@ -136,41 +155,60 @@ export function MoneyQuizModal() {
       </button>
 
       {isOpen && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-ink-900/60 backdrop-blur-xs">
-          <div className="bg-surface w-full max-w-lg rounded-xl border border-ink-200 shadow-2xl p-6 sm:p-8 relative">
-            <button
-              type="button"
-              onClick={() => setIsOpen(false)}
-              className="absolute top-4 right-4 text-ink-400 hover:text-ink-800 p-1"
-              aria-label="Close Quiz"
-            >
-              <X className="w-5 h-5" />
-            </button>
-
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-ink-900/70 backdrop-blur-xs overflow-y-auto"
+          onClick={() => setIsOpen(false)}
+        >
+          <div
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="quiz-question-title"
+            onClick={(e) => e.stopPropagation()}
+            className="bg-surface w-full max-w-lg max-h-[92dvh] sm:max-h-[88dvh] rounded-2xl border border-ink-200 shadow-2xl flex flex-col relative overflow-hidden my-auto animate-in zoom-in-95 fade-in duration-150"
+          >
             {!isFinished ? (
-              <div>
-                <div className="flex items-center justify-between gap-2 mb-4">
-                  <span className="text-xs font-semibold text-brand tracking-wider uppercase">
-                    Money IQ Assessment
-                  </span>
-                  <span className="text-xs text-ink-500 font-medium">
-                    Question {currentStep + 1} of {totalQuestions}
-                  </span>
+              <>
+                {/* Fixed Sticky Header: Never scrolls away, ensuring question is always 100% visible */}
+                <div className="shrink-0 bg-surface px-5 pt-4 pb-3 sm:px-6 sm:pt-5 border-b border-ink-100">
+                  <div className="flex items-center justify-between gap-3 mb-2.5">
+                    <div className="flex items-center gap-2">
+                      <span className="text-[10px] font-bold text-brand uppercase tracking-wider px-2 py-0.5 rounded bg-brand-subtle border border-brand-border">
+                        Money IQ
+                      </span>
+                      <span className="text-xs text-ink-500 font-semibold">
+                        Question {currentStep + 1} of {totalQuestions}
+                      </span>
+                    </div>
+
+                    <button
+                      type="button"
+                      onClick={() => setIsOpen(false)}
+                      className="p-1.5 text-ink-400 hover:text-ink-800 hover:bg-ink-100 rounded-md transition-colors"
+                      aria-label="Close Quiz"
+                    >
+                      <X className="w-4 h-4" />
+                    </button>
+                  </div>
+
+                  {/* Progress bar */}
+                  <div className="w-full h-1.5 bg-ink-100 rounded-full mb-3 overflow-hidden">
+                    <div
+                      className="h-full bg-brand transition-all duration-200 rounded-full"
+                      style={{ width: `${((currentStep + 1) / totalQuestions) * 100}%` }}
+                    />
+                  </div>
+
+                  {/* Question Title Permanently Pinned in Header */}
+                  <h3
+                    id="quiz-question-title"
+                    className="text-sm sm:text-base md:text-lg font-bold text-ink-900 leading-snug"
+                  >
+                    {currentQ.question}
+                  </h3>
                 </div>
 
-                {/* Progress bar */}
-                <div className="w-full h-1.5 bg-ink-100 rounded-full mb-6 overflow-hidden">
-                  <div
-                    className="h-full bg-brand transition-all duration-200"
-                    style={{ width: `${((currentStep + 1) / totalQuestions) * 100}%` }}
-                  />
-                </div>
-
-                <h3 className="text-lg font-bold text-ink-900 mb-5 leading-snug">
-                  {currentQ.question}
-                </h3>
-
-                <div className="space-y-2.5 mb-6">
+                {/* Scrollable Options List */}
+                <div className="flex-1 overflow-y-auto px-5 py-3.5 sm:px-6 sm:py-4 space-y-2.5">
                   {currentQ.options.map((option, idx) => {
                     const isSelected = selectedAnswers[currentStep] === idx;
                     return (
@@ -178,31 +216,34 @@ export function MoneyQuizModal() {
                         key={idx}
                         type="button"
                         onClick={() => handleSelectOption(currentStep, idx)}
-                        className={`w-full text-left p-3.5 rounded-lg border text-sm font-medium transition-all ${
+                        className={`w-full text-left p-3 sm:p-3.5 rounded-lg border text-xs sm:text-sm font-medium transition-all ${
                           isSelected
                             ? "bg-brand-subtle border-brand text-brand-dark ring-1 ring-brand"
                             : "bg-surface border-ink-200 text-ink-800 hover:border-ink-400 hover:bg-ink-50"
                         }`}
                       >
                         <div className="flex items-start gap-2.5">
-                          <span className={`w-5 h-5 rounded-full flex items-center justify-center text-xs shrink-0 mt-0.5 ${
-                            isSelected ? "bg-brand text-surface" : "bg-ink-100 text-ink-600"
-                          }`}>
+                          <span
+                            className={`w-5 h-5 rounded-full flex items-center justify-center text-xs shrink-0 mt-0.5 font-bold ${
+                              isSelected ? "bg-brand text-surface" : "bg-ink-100 text-ink-600"
+                            }`}
+                          >
                             {String.fromCharCode(65 + idx)}
                           </span>
-                          <span>{option.label}</span>
+                          <span className="leading-snug">{option.label}</span>
                         </div>
                       </button>
                     );
                   })}
                 </div>
 
-                <div className="flex items-center justify-between pt-4 border-t border-ink-100">
+                {/* Sticky Action Footer */}
+                <div className="shrink-0 px-5 py-3 sm:px-6 sm:py-3.5 bg-canvas border-t border-ink-100 flex items-center justify-between">
                   <button
                     type="button"
                     disabled={currentStep === 0}
                     onClick={() => setCurrentStep((prev) => prev - 1)}
-                    className="px-3 py-1.5 rounded-md text-xs font-medium text-ink-600 hover:text-ink-900 disabled:opacity-30 disabled:pointer-events-none"
+                    className="px-3 py-1.5 rounded-md text-xs font-semibold text-ink-600 hover:text-ink-900 hover:bg-ink-100 transition-colors disabled:opacity-30 disabled:pointer-events-none"
                   >
                     Previous
                   </button>
@@ -217,15 +258,24 @@ export function MoneyQuizModal() {
                         setIsFinished(true);
                       }
                     }}
-                    className="inline-flex items-center gap-1.5 px-4 py-2 rounded-md bg-brand text-surface text-xs font-bold hover:bg-brand-dark transition-colors disabled:opacity-40 disabled:pointer-events-none"
+                    className="inline-flex items-center gap-1.5 px-4 py-2 rounded-md bg-brand text-surface text-xs font-bold hover:bg-brand-dark transition-colors disabled:opacity-40 disabled:pointer-events-none shadow-xs"
                   >
                     {currentStep === totalQuestions - 1 ? "See Results" : "Next Question"}
                     <ArrowRight className="w-3.5 h-3.5" />
                   </button>
                 </div>
-              </div>
+              </>
             ) : (
-              <div className="text-center py-2">
+              <div className="flex-1 overflow-y-auto p-6 sm:p-8 text-center relative">
+                <button
+                  type="button"
+                  onClick={() => setIsOpen(false)}
+                  className="absolute top-4 right-4 text-ink-400 hover:text-ink-800 hover:bg-ink-100 p-1.5 rounded-md transition-colors"
+                  aria-label="Close Quiz"
+                >
+                  <X className="w-4 h-4" />
+                </button>
+
                 <div className="w-12 h-12 bg-brand-subtle text-brand border border-brand-border rounded-full flex items-center justify-center mx-auto mb-4">
                   <Award className="w-6 h-6" />
                 </div>
@@ -233,7 +283,7 @@ export function MoneyQuizModal() {
                 <h3 className="text-xl font-bold text-ink-900 mb-1">
                   Your Score: {score} / {totalQuestions}
                 </h3>
-                <p className="text-sm text-ink-600 mb-6">
+                <p className="text-xs sm:text-sm text-ink-600 mb-6">
                   {score === 5
                     ? "Exceptional! You have rock-solid foundational instincts."
                     : score >= 3
@@ -242,7 +292,7 @@ export function MoneyQuizModal() {
                 </p>
 
                 <div className="bg-canvas border border-ink-200 rounded-lg p-5 text-left mb-6">
-                  <p className="text-xs font-semibold text-brand uppercase tracking-wider mb-1">
+                  <p className="text-[10px] font-bold text-brand uppercase tracking-wider mb-1">
                     Recommended Starting Track
                   </p>
                   <p className="text-base font-bold text-ink-900 mb-2">
@@ -255,7 +305,7 @@ export function MoneyQuizModal() {
                   <Link
                     href={`/learn/${recommendedSlug}`}
                     onClick={() => setIsOpen(false)}
-                    className="inline-flex items-center justify-center gap-2 w-full px-4 py-2.5 rounded-md bg-brand text-surface text-sm font-semibold hover:bg-brand-dark transition-colors"
+                    className="inline-flex items-center justify-center gap-2 w-full px-4 py-2.5 rounded-md bg-brand text-surface text-xs sm:text-sm font-semibold hover:bg-brand-dark transition-colors"
                   >
                     Start {TRACK_NAMES[recommendedSlug]} <ArrowRight className="w-4 h-4" />
                   </Link>
